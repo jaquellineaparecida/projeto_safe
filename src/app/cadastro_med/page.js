@@ -39,7 +39,7 @@ export default function Med_cad() {
                     </div>
 
                     <div className="flex justify-end mr-2 ">
-                        <Image width={85} height={85} src="/images/SAFE-png.png"/> 
+                        <Image width={85} height={85} alt="" src="/images/SAFE-png.png"/> 
                     </div>
                 </div>
             </div>
