@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,11 +18,15 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+input {
+  border: none;
+  border-style: none;
 }
